@@ -1,0 +1,10 @@
+﻿<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+           Size="300,300"
+           x:Class="Scan.PopupTag">
+    <StackLayout>
+        <Label x:Name="Leitura" Text="CODIGO" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+        <Button x:Name="Copiar" Text="Copiar" HorizontalOptions="Center" Clicked="BtnCsharp_Click"/>
+    </StackLayout>
+</xct:Popup>
