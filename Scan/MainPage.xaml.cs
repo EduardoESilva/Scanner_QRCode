@@ -47,8 +47,8 @@ namespace Scan
             try
             {
                 var scanner = new ZXing.Mobile.MobileBarcodeScanner();
-                scanner.TopText = "Centralize a Linha";
-                scanner.BottomText = "Teste Scanner";
+                scanner.TopText = "Aponte para o QR Code";
+                scanner.BottomText = "Teste Scanner - Eduardo Elias";
                 var result = await scanner.Scan();
                 if (result != null)
                 {
